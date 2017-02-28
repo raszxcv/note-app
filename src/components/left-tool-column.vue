@@ -10,6 +10,7 @@
 </template>
 <script>
     export default {
+      name: 'left-tool-column',
       computed: {
         isStarActive () {
           if (this.$store.state.activeNote.favorite) {

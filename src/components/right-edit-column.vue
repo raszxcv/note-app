@@ -8,6 +8,7 @@
   import edit from './edit-part.vue'
   import markdown from './markdown-part.vue'
   export default {
+    name: 'right-edit-column',
     components: {
       'edit-part': edit,
       'markdown-part': markdown

@@ -5,6 +5,7 @@
 </template>
 <script>
   export default {
+    name: 'edit-part',
     computed: {
       content () {
         if (this.$store.state.activeNote.text) {

@@ -5,6 +5,7 @@
 </template>
 <script>
     export default {
+      name: 'markdown-part',
       computed: {
         renderMarkdown () {
           return this.$store.state.renderedMarkdown
