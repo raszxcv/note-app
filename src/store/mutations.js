@@ -1,0 +1,11 @@
+// mutations 集中管理层
+export const ADD_NOTE = 'ADD_NOTE'
+export const DELETE_NOTE = 'DELETE_NOTE'
+export const TOGGLE_STAR_STATUS = 'TOGGLE_STAR_STATUS'
+export const UPDATE_ACTIVE = 'UPDATE_ACTIVE'
+export const EDIT_NOTE = 'EDIT_NOTE'
+export const CLEAR_ACTIVE = 'CLEAR_ACTIVE'
+export const TOGGLE_ALL = 'TOGGLE_ALL'
+export const TOGGLE_FAVORITE = 'TOGGLE_FAVORITE'
+export const RENDER_MARKDOWN = 'RENDER_MARKDOWN'
+export const CLEAR_MARKDOWN = 'CLEAR_MARKDOWN'
