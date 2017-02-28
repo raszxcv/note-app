@@ -3,9 +3,11 @@
 > A Vue.js project
 > 自己重新写了note-app这个项目,添加了一些过渡效果和markdown转换功能.
 
+## DEMO
+[在线演示地址](http://heyskyline.com)
+
 ## 目的
-为了尽快熟悉vuex和vue-resource以及vue-cli脚
-## 版本手架下的模块化开发.
+为了尽快熟悉vuex和vue-resource以及vue-cli脚手架下的模块化开发.
 
 以后会逐步升级完善这个note-app,这个项目来自[出处](https://coligo.io/learn-vuex-by-building-notes-app/).外观是直接借用,代码全部自己重构.具体可以自行参考源码.
 
