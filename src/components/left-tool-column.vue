@@ -104,37 +104,69 @@
     }
 
     #left-tool-column ul li i.addNote {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
     #left-tool-column ul li i.addNote:hover {
         color: #358C31;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
         transform: rotate(90deg);
     }
 
     #left-tool-column ul li i.favNote {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
     #left-tool-column ul li i.favNote:hover {
+        -webkit-transform: rotate(72deg);
+        -moz-transform: rotate(72deg);
+        -ms-transform: rotate(72deg);
+        -o-transform: rotate(72deg);
         transform: rotate(72deg);
     }
 
     #left-tool-column ul li i.delNote {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
     #left-tool-column ul li i.delNote:hover {
         color: #B71E1F;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
         transform: rotate(90deg);
     }
 
     #left-tool-column ul li i.renderMarkdown {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
 
     #left-tool-column ul li i.renderMarkdown:hover {
         color: #245EA3;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
         transform: rotate(180deg);
     }
 </style>

@@ -113,14 +113,22 @@
 
     /* 过渡状态 */
     .list-complete-item {
-        transition: all .5s,.5s;
+        -webkit-transition: all .5s;
+        -moz-transition: all .5s;
+        -ms-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s;
         color: black
     }
     .list-complete-item .active p {
         color: white
     }
     .list-complete-enter, .list-complete-leave-active {
-        transform: translate(15px,15px);
+        -webkit-transform: translate(15px, 15px);
+        -moz-transform: translate(15px, 15px);
+        -ms-transform: translate(15px, 15px);
+        -o-transform: translate(15px, 15px);
+        transform: translate(15px, 15px);
         opacity: 0;
     }
     .list-complete-leave-active {
