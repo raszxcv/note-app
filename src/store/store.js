@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueResource from 'vue-resource'
-import {ADD_NOTE, DELETE_NOTE, TOGGLE_STAR_STATUS, UPDATE_ACTIVE, EDIT_NOTE, CLEAR_ACTIVE, TOGGLE_ALL, TOGGLE_FAVORITE, RENDER_MARKDOWN, CLEAR_MARKDOWN} from './mutations'
+import {ADD_NOTE, DELETE_NOTE, TOGGLE_STAR_STATUS, UPDATE_ACTIVE, EDIT_NOTE, CLEAR_ACTIVE, TOGGLE_ALL, TOGGLE_FAVORITE, RENDER_MARKDOWN, CLEAR_MARKDOWN, SEARCH_NOTE} from './mutations'
 import * as action from './actions'
 
 // 注册Vuex
@@ -79,6 +79,10 @@ const mutations = {
   
   [CLEAR_MARKDOWN] (state) {
     state.renderedMarkdown = ''
+  },
+  
+  [SEARCH_NOTE] (state, payload) {
+    state.activeNote = payload
   }
 }
 // 设计actions
@@ -92,9 +96,9 @@ const actions = {
   toggleAll: action.toggleAll,
   toggleFavorite: action.toggleFavorite,
   renderMarkdown: action.renderMarkdown,
-  clearMarkdown: action.clearMarkdown
+  clearMarkdown: action.clearMarkdown,
+  searchNote: action.searchNote
 }
-// 设计getters
 const store = new Vuex.Store({
   name: 'store',
   state,

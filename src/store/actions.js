@@ -29,3 +29,6 @@ export const renderMarkdown = function ({ commit }, payload) {
 export const clearMarkdown = function ({ commit }) {
   commit('CLEAR_MARKDOWN')
 }
+export const searchNote = function ({ commit }, payload) {
+  commit('SEARCH_NOTE', payload)
+}
