@@ -96,7 +96,7 @@
     }
 
     #left-tool-column ul li i.starActive {
-        color: #F5A035;
+        color: #FFFF00;
     }
 
     #left-tool-column ul li i:hover {
