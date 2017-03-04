@@ -18,6 +18,6 @@
     #markdown-part {
         height: 50%;
         padding: 20px;
-        background: #FFFFFF;
+        background: #EDEDED;
     }
 </style>
