@@ -11,6 +11,9 @@
 
 以后会逐步升级完善这个note-app,这个项目来自[出处](https://coligo.io/learn-vuex-by-building-notes-app/).外观是直接借用,代码全部自己重构.具体可以自行参考源码.
 
+## 升级日志
+2017.3.5 添加搜索笔记高亮功能
+
 ## 提醒
 该项目使用的是vue-cli提供的webpack-simple模板,所以css文件的兼容性前缀没有设置自动添加.如果不想手动添加,可以使用webpack模板.
 
