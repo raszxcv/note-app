@@ -79,7 +79,7 @@
         float: left;
         width: 300px;
         height: 100%;
-        background: #F5F5F5;
+        background: #FAFAFA;
         font-family: 'Raleway', sans-serif;
         font-weight: 300;
     }
@@ -111,6 +111,11 @@
         padding: 14px 15px;
     }
 
+    #middle-list-column .list-group .list-group-item.active {
+        background: #DBDBDB;
+        color: #000;
+    }
+
     /* 过渡状态 */
     .list-complete-item {
         -webkit-transition: all .5s;
@@ -118,7 +123,7 @@
         -ms-transition: all .5s;
         -o-transition: all .5s;
         transition: all .5s;
-        color: black
+        color: black;
     }
     .list-complete-item .active p {
         color: white
