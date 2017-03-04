@@ -83,7 +83,7 @@
         width: 80px;
         height: 100%;
         padding: 35px 25px 25px;
-        background: #24313D;
+        background: #1D1D1D;
     }
 
     #left-tool-column ul li i {
@@ -112,7 +112,7 @@
     }
 
     #left-tool-column ul li i.addNote:hover {
-        color: #358C31;
+        color: #1AB20A;
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
@@ -145,7 +145,7 @@
     }
 
     #left-tool-column ul li i.delNote:hover {
-        color: #B71E1F;
+        color: #EE1C25;
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
@@ -162,7 +162,7 @@
     }
 
     #left-tool-column ul li i.renderMarkdown:hover {
-        color: #245EA3;
+        color: #216CCD;
         -webkit-transform: rotate(180deg);
         -moz-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
