@@ -10,6 +10,10 @@
                     <button class="btn btn-default" @click="toFavorite" :class="{active: isFavorite}">Favorite</button>
                 </div>
             </div>
+            <div class="input-group">
+                <span class="input-group-addon" id="basic-addon1">?</span>
+                <input type="text" class="form-control" placeholder="search" aria-describedby="basic-addon1" @input="search($event)">
+            </div>
         </div>
         <div class="list-group all" v-show="isAll">
             <transition-group tag="div" name="list-complete">
@@ -70,6 +74,12 @@
       },
       toAll () {
         this.$store.dispatch('toggleAll')
+      },
+      search (e) {
+        let target = this.$store.state.noteList.filter(item => item.text.match(e.target.value))
+        if (target.length !== 0) {
+          this.$store.dispatch('searchNote', target[0])
+        }
       }
     }
   }
@@ -87,6 +97,9 @@
         text-align: center;
         padding: 2px 25px 25px;
     }
+    #middle-list-column .note-header .input-group {
+        margin-top: 20px;
+    }
     #middle-list-column .note-header h1 {
         margin-top: 20px;
         margin-bottom: 10px;
@@ -97,7 +110,7 @@
     #middle-list-column .list-group  {
         overflow-y: auto;
         overflow-x: hidden;
-        height: calc(100% - 121px);
+        height: calc(100% - 175px);
         font-size: 15px;
     }
 
