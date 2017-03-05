@@ -65,10 +65,14 @@
             "context": "github/gollum"
           }).then(response => {
             // get body data
-            this.$store.dispatch({
-              type: 'renderMarkdown',
-              content: response.body
-            })
+            if (!(JSON.stringify(response.body) == "{}")) {
+              this.$store.dispatch({
+                type: 'renderMarkdown',
+                content: response.body
+              })
+            } else {
+              alert('别闹,写点内容再尝试转换.')
+            }
           }, response => {
             // error callback
             console.log('net-err-markdown-render')
