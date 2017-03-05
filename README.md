@@ -11,9 +11,11 @@
 
 ## 升级日志
 2017.3.5 添加搜索笔记高亮功能
+2017.3.5 修复无内容转换BUG
 
 ## 提醒
-该项目使用的是vue-cli提供的webpack-simple模板,所以css文件的兼容性前缀没有设置自动添加.如果不想手动添加,可以使用webpack模板.
+- 该项目使用的是vue-cli提供的webpack-simple模板,所以css文件的兼容性前缀没有设置自动添加.如果不想手动添加,可以使用webpack模板.
+- 由于rate-limiting的限制,转换markdown文档次数不能超过60次每小时.由于该app每次新建以及更新高亮状态都会自动转换一次,所以使用过程中可能很快就无法转换markdown文档.正在研究学习离线的markwodn转换方法.
 
 ## Build Setup
 
