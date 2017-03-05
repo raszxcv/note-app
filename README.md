@@ -3,8 +3,6 @@
 > A Vue.js project
 > 自己重新写了note-app这个项目,添加了一些过渡效果和markdown转换功能.
 
-## DEMO
-[在线演示地址](http://heyskyline.com)
 
 ## 目的
 为了尽快熟悉vuex和vue-resource以及vue-cli脚手架下的模块化开发.
